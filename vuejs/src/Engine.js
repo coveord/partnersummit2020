@@ -1,8 +1,8 @@
-import { HeadlessEngine, searchPageReducers } from "@coveo/headless";
+import { HeadlessEngine, searchAppReducers  } from "@coveo/headless";
 
 const engine = new HeadlessEngine({
     configuration: HeadlessEngine.getSampleConfiguration(),
-    reducers: searchPageReducers,
+    reducers: searchAppReducers,
 });
 
 export default engine;
